@@ -2,17 +2,16 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
+  { skill: "Solidity" },
+  { skill: "Foundry" },
+  { skill: "Hardhat" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
   { skill: "React" },
   { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Security Reviews" },
+  { skill: "Unit Testing" },
+  { skill: "Fuzz Testing" },
 ]
 
 const AboutSection = () => {
@@ -30,36 +29,24 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              Hi, my name is Trevor or you might know me as{" "}
+              <span className="font-bold">{"Funkornaut"}</span>
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I am a self taught blockchain developer and smart contract security researcher. I believe the growth of the Web3 space hinges on the security of the smart contracts that power it. I offer <span className="font-bold text-teal-500">pay-per-vulnerability </span> smart contract security reviews, pre-audit preperation consulting and security first smart contract development.
             </p>
             <br />
-            <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
-            <br />
-            <p>
+            {/* <p>
               I believe that you should{" "}
               <span className="font-bold text-teal-500">
-                never stop growing
+                never stop learning
               </span>{" "}
               and that&#39;s what I strive to do, I have a passion for
               technology and a desire to always push the limits of what is
               possible. I am excited to see where my career takes me and am
               always open to new opportunities. 🙂
-            </p>
+            </p> */}
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
@@ -75,13 +62,13 @@ const AboutSection = () => {
                 )
               })}
             </div>
-            <Image
+            {/* <Image
               src="/hero-image.png"
               alt=""
               width={325}
               height={325}
               className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-            />
+            /> */}
           </div>
         </div>
       </div>

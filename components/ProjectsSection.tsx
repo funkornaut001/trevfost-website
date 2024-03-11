@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "DeFi Conquest",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "DeFi Conquest is a No-Loss Rock, Paper, Scissors DeFi game where users deposit interest bearing tokens to enter and compete to win extra rewards",
+    image: "/deficonquest.jpg",
+    github: "https://github.com/0xBcamp/xRave-janus-dragon",
+    link: "https://defi-conquest.vercel.app/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
-  },
-  {
-    name: "Kator Family Photos",
+    name: "Honey Badger HR",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "HoneyBadger HR is an cross-chain payroll system built with Chainlink CCIP",
+    image: "/honey-badger-hr.png",
+    github: "https://github.com/Spencer-Sch/CCIP-Payroll",
+    link: "https://devpost.com/software/ccip-payroll",
+  },
+{
+    name: "Roam Genius",
+    description: "RoamGenus is you ChatGPT powered travel buddy.",
+    image: "/roamballon.png",
+    github: "https://github.com/funkornaut001/RoamGenius",
+    link: "https://roam-genius.vercel.app/",
   },
 ]
 
