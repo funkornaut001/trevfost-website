@@ -1,16 +1,14 @@
-# Tailwind CSS and Next.js Portfolio
+## Welcome to my personal website
+My website highlights my experience as a developer and smart contract security researcher. 
 
-This is a template for creating a portfolio with Tailwind CSS and Next.js.
+### Built With
+Love
+Next.js.
+Tailwind.css
 
-![Portfolio Demo](demo/demo.gif)
-
-## How it works
-
-Fork or download the repo and change whatever you need to change for your needs.
 
 ## Running Locally
-
-Can run the application in VS Code or a terminal and it will be available at `http://localhost:3000`.
+idk why you would but do this
 
 ```bash
 npm install
